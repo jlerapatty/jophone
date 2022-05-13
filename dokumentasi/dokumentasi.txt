@@ -1,0 +1,29 @@
+1. Bikin Database dengan nama Jophone
+2. Bikin Tabel Customer,Admin dan Produk
+3.
+* Customer
+	- nama tabel Customer
+	  Query : 
+	   => id INT NOT NULL AUTO_INCREMENT Primary Key
+	   => username varchar(255) NOT NULL
+	   => email varchar(255) NOT NULL
+	   => password varchar(255) NOT NULL 
+	   => nama varchar(255) NOT NULL
+	   => alamat varchar(255)
+	   => no_telepon varchar(25)  
+	   => created_at TIMESTAMP
+	   => updated_at TIMESTAMP
+
+* Handphone
+	- nama tabel handphone
+	  Query : 
+	   => handphone_id INT NOT NULL AUTO_INCREMENT Primary Key
+	   => handphone_label varchar(255) NOT NULL
+	   => handphone_merek varchar(255) NOT NULL 
+	   => handphone_warna varchar(255) 
+ 	   => handphone_memory varchar(255)
+	   => handphone_year varchar(255)
+	   => handphone_price INT
+	   => handphone_stok INT
+	   => created_at TIMESTAMP
+	   => updated_at TIMESTAMP
